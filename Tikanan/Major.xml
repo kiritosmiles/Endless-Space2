@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="Documentation/Schemas/Amplitude.Unity.Runtime.RuntimeModule.xsd">
+
+  <RuntimeModule Name="MajorM" Type="Extension" Version="0.2">
+
+    
+        <Title>Tikanan</Title>
+        <Description>Tikanan who is very cruel and aggressive is one of Diablo's subordinates and seeks to make his fortune off the back of Diablo's mission. 
+
+Diablo the Dread-lord is as mysterious as he is violent. Leading the largest fleet in the galaxy from an unknown location, his army ravages what remains of the native civilisations for resources. 
+
+His fear inducing ferocity has led to his supporters viewing him as a living God. Diablo's motives are purely selfish: he is longing for complete control and dominion over the last galaxy.</Description>
+        <Author>Kirito</Author>
+        <PreviewImageFile>Tikanan.png</PreviewImageFile>
+        <ReleaseNotes>I will always follow Diablo--Tikanan
+
+Not Even Death Can Save You From Me--Diablo</ReleaseNotes>
+        <Tags>Enemy</Tags>
+
+		<Plugins>			
+			
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Simulation.SimulationDescriptor, Assembly-CSharp-firstpass">
+				<FilePath>Simulation/SimulationDescriptors[*].xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="GalaxyGeneratorWeightTableDefinition, Assembly-CSharp">
+				<FilePath>GalaxyGenerator/WeightTableDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+						
+			<DatabasePlugin DataType="FactionTrait, Assembly-CSharp" Priority="20">
+			    <ExtraTypes>
+                    <ExtraType DataType="FactionAffinity, Assembly-CSharp"/>
+					<ExtraType DataType="FactionAffinityMapping, Assembly-CSharp"/>
+                </ExtraTypes>
+				<FilePath>Simulation/FactionTraits[*].xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="Faction, Assembly-CSharp">
+			    <ExtraTypes>
+                    <ExtraType DataType="MajorFaction, Assembly-CSharp"/>
+                </ExtraTypes>
+				<FilePath>Simulation/Factions.xml</FilePath>
+			</DatabasePlugin>
+			
+			<DatabasePlugin DataType="MajorFaction, Assembly-CSharp">
+                <FilePath>Simulation/Factions.xml</FilePath>
+            </DatabasePlugin>
+
+			
+			<DatabasePlugin DataType="PopulationTrait, Assembly-CSharp">
+                <ExtraTypes>
+                    <ExtraType DataType="PopulationPoliticalTraitDefinition, Assembly-CSharp"/>
+                    <ExtraType DataType="PopulationModifiersTrait, Assembly-CSharp"/>
+                    <ExtraType DataType="PopulationCollectionBonusTrait, Assembly-CSharp"/>
+                </ExtraTypes>
+                <FilePath>Simulation/PopulationModifiersTraits.xml</FilePath>
+                <FilePath>Simulation/PopulationCollectionBonusTraits.xml</FilePath>
+            </DatabasePlugin>
+
+            <DatabasePlugin DataType="PopulationDefinition, Assembly-CSharp">
+				<FilePath>Simulation/PopulationDefinitions.xml</FilePath>
+			</DatabasePlugin>
+			
+			
+			<DatabasePlugin DataType="Amplitude.Unity.Gui.GuiElement, Assembly-CSharp-firstpass">
+			    <ExtraTypes>
+                    <ExtraType DataType="Amplitude.Unity.Gui.ExtendedGuiElement, Assembly-CSharp-firstpass"/>
+					<ExtraType DataType="AffinityGuiElement, Assembly-CSharp"/>
+					<ExtraType DataType="TechnologyGuiElement2, Assembly-CSharp" />
+                </ExtraTypes>
+				<FilePath>Gui/GuiElements[*].xml</FilePath>
+			</DatabasePlugin>
+			
+			<LocalizationPlugin DefaultLanguage="English">
+                <Directory>Localization</Directory>
+            </LocalizationPlugin>
+			
+			<DatabasePlugin DataType="ScienceConstructibleElement, Assembly-CSharp">
+                <ExtraTypes>
+                    <ExtraType DataType="TechnologyDefinition, Assembly-CSharp" />
+                    <ExtraType DataType="TechnologyStageDefinition, Assembly-CSharp" />
+                </ExtraTypes>
+                <FilePath>Simulation/ConstructibleElement_Science[*].xml</FilePath>
+            </DatabasePlugin>
+			
+			<DatabasePlugin DataType="FleetNameMappingDefinition, Assembly-CSharp">
+                <FilePath>Mapping/FleetNameMappingDefinitions.xml</FilePath>
+            </DatabasePlugin>
+			
+			<DatabasePlugin DataType="TechnologyLinkDefinition, Assembly-CSharp">
+                <FilePath>Simulation/TechnologyLinkDefinitions[*].xml</FilePath>
+            </DatabasePlugin>
+			
+			<DatabasePlugin DataType="HullDefinition, Assembly-CSharp">
+                <FilePath>Simulation/Battles/HullDefinitions[*].xml</FilePath>
+            </DatabasePlugin>
+
+			<DatabasePlugin DataType="EmpireImprovementDefinition, Assembly-CSharp">
+                <FilePath>Simulation/EmpireImprovements[*].xml</FilePath>
+            </DatabasePlugin>
+			
+			<DatabasePlugin DataType="ShipDesignTemplateDefinition, Assembly-CSharp">
+        <FilePath>Simulation/Battles/ShipDesignTemplateDefinitions.xml</FilePath>
+            </DatabasePlugin>
+	  
+	  <DatabasePlugin DataType="ShipDesignDefinition, Assembly-CSharp">
+                <FilePath>Simulation/Battles/ShipDesignDefinitions[*].xml</FilePath>
+            </DatabasePlugin>
+			
+		</Plugins>
+	</RuntimeModule>
+</Datatable>
