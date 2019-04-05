@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/FleetNameMappingDefinition.xsd">
+    <FleetNameMappingDefinition Name="AffinityMappingMajorM">
+        <FleetNameTitle LocalizationKey="%FleetNameTitleKith">
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith00" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith01" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith02" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith03" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith04" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith05" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith06" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith07" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith08" />
+            <FleetNameAdjective LocalizationKey="%FleetNameAdjectiveKith09" />
+        </FleetNameTitle>
+    </FleetNameMappingDefinition>
+</Datatable>
