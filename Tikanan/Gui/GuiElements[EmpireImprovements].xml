@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+
+
+    
+
+    <ExtendedGuiElement Name="EmpireImprovementSlotsSmall01MajorM">
+        <Title>%EmpireImprovementSlotsSmall01CraversEra2Title</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversLarge" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%EmpireImprovementSlotsSmall01CraversEra2TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+   <GuiElement Name="EmpireImprovementSlotsSmall01MajorMPrime">
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullSmall01CraversPrimeSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullSmall01CraversPrimeLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="EmpireImprovementSlotsSmall02MajorMPrime">
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullSmall02CraversPrimeSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullSmall02CraversPrimeLarge" />
+        </Icons>
+    </GuiElement>
+
+    <SkinnedGuiElement Name="EmpireImprovementSlotsSmall02MajorM" SkinName="Prime">
+        <Title>%EmpireImprovementSlotsSmall02CraversEra2Title</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall02CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall02CraversLarge" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%EmpireImprovementSlotsSmall02CraversEra2TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </SkinnedGuiElement>
+    
+
+    <ExtendedGuiElement Name="EmpireImprovementSlotsMedium01MajorM">
+        <Title>%EmpireImprovementSlotsMedium01CraversEra3Title</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium01CraversLarge" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%EmpireImprovementSlotsMedium01CraversEra3TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+ <GuiElement Name="EmpireImprovementSlotsMedium01MajorMPrime">
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullMedium01CraversPrimeSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullMedium01CraversPrimeLarge" />
+        </Icons>
+    </GuiElement>
+
+   
+
+    <ExtendedGuiElement Name="EmpireImprovementSlotsMedium02MajorM">
+        <Title>%EmpireImprovementSlotsMedium02CraversEra3Title</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversLarge" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%EmpireImprovementSlotsMedium02CraversEra3TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+   <GuiElement Name="EmpireImprovementSlotsMedium02MajorMPrime">
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullMedium02CraversPrimeSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullMedium02CraversPrimeLarge" />
+        </Icons>
+    </GuiElement>
+
+    <ExtendedGuiElement Name="EmpireImprovementSlotsLarge01MajorM">
+        <Title>%EmpireImprovementSlotsLarge01CraversEra4Title</Title>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullLarge01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullLarge01CraversLarge" />
+        </Icons>
+        <TooltipElement>
+            <EffectOverride>%EmpireImprovementSlotsLarge01CraversEra4TooltipEffect</EffectOverride>
+        </TooltipElement>
+    </ExtendedGuiElement>
+
+<GuiElement Name="EmpireImprovementSlotsLarge01MajorMPrime">
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullLarge01CraversPrimeSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/CraversPrime/ShipHullLarge01CraversPrimeLarge" />
+        </Icons>
+    </GuiElement>
+
+
+
+
+   
+
+</Datatable>

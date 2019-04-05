@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+  
+
+    <!-- EFFICIENT SHIELDING -->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionUnique1MajorM" X="2.75" Y="0">
+        <Title>%TechnologyDefinitionUnique1MajorMTitle</Title>
+        <Description>%TechnologyDefinitionUnique1MajorMDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique1Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    
+
+   
+
+    <!-- depleted isotopes-->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionUnique3MajorM" X="4.5" Y="0">
+        <Title>%TechnologyDefinitionUnique3MajorMTitle</Title>
+        <Description>%TechnologyDefinitionUnique3MajorMDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique3Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    
+
+    <!-- AUTONOMOUS CONSTRUCTION -->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionUnique2MajorM" X="3.25" Y="0">
+        <Title>%TechnologyDefinitionUnique2MajorMTitle</Title>
+        <Description>%TechnologyDefinitionUnique2MajorMDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique2Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+   
+
+    <!-- depleted isotopes-->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionUnique5MajorM" X="2.15" Y="0">
+        <Title>%TechnologyDefinitionUnique5MajorMTitle</Title>
+        <Description>%TechnologyDefinitionUnique5MajorMDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique5Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    
+
+    <!-- depleted isotopes-->
+    <TechnologyGuiElement2 Name="TechnologyDefinitionUnique4MajorM" X="1" Y="0">
+        <Title>%TechnologyDefinitionUnique4MajorMTitle</Title>
+        <Description>%TechnologyDefinitionUnique4MajorMDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique4Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+   
+
+    <TechnologyGuiElement2 Name="TechnologyDefinitionUnique8MajorM" X="5.75" Y="0">
+        <Title>%TechnologyDefinitionUnique8Title</Title>
+        <Description>%TechnologyDefinitionUnique8Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique8Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+   
+
+
+    
+
+    <TechnologyGuiElement2 Name="TechnologyDefinitionUnique7MajorM" X="2.25" Y="0">
+        <Title>%TechnologyDefinitionUnique7Title</Title>
+        <Description>%TechnologyDefinitionUnique7Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique7Small" />
+        </Icons>
+    </TechnologyGuiElement2>
+
+    
+
+  <TechnologyGuiElement2 Name="TechnologyDefinitionUnique9MajorM" X="6" Y="0">
+    <Title>%TechnologyDefinitionUnique9Title</Title>
+    <Description>%TechnologyDefinitionUnique9Description</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Technologies/TechnologyDefinitionUnique9Small" />
+    </Icons>
+  </TechnologyGuiElement2>
+
+  
+   
+
+</Datatable>

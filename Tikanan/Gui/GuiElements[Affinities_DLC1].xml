@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    
+  <!-- Vaulters -->
+  <AffinityGuiElement Name="AffinityMappingMajorM" PreloadCount="3" >
+    <Title>%AffinityMajorMTitle</Title>
+    <Description>%AffinityMajorMDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="AffinityMajorMSmall.png" />
+      <Icon Size="Medium" Path="AffinityMajorMMedium.png" />
+      <Icon Size="MediumInverted" Path="Bitmaps/Dynamic/Affinities/MediumInverted/AffinityЮMediumInverted" />
+      <Icon Size="Large" Path="AffinityMajorMLarge.png" />
+      <Icon Size="Leader" Path="QuestHeroEndless01Large.png" />
+      <Icon Size="Mood" Path="AffinityMajorMMood.png" />
+      <Icon Size="SmallExtended" Path="NotificationMajorEmpireMetMajorMSmall.png" /> <!--Empire met notification-->
+      <Icon Size="MediumExtended" Path="NotificationMajorEmpireMetMajorMMedium.png" /> <!--Empire met notification-->
+      <Icon Size="Loading" Path="Bitmaps/Dynamic/Moods/LoadingScreen09" />
+    </Icons>
+    <SymbolString>Ю</SymbolString>
+    <Sounds>
+      <Sound EventName="Play_ES2_Voices_OUTRO_Terrans" Type="Outro"/>
+    </Sounds>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <Movies>
+    </Movies>
+    <ModelPath>Prefabs/Gui/AnimatedPortrait/AnimatedPortraitTikanan</ModelPath> <!--Leader, use hero prefabs-->
+  </AffinityGuiElement>
+    
+  
+  
+</Datatable>

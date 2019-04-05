@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    
+  <!-- MajorM -->
+  <ExtendedGuiElement Name="AffinityGameplayTechnologyMajorM">
+    <Title>%AffinityGameplayMajorMTitle</Title>
+    <Description>%AffinityGameplayMajorMDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityGameplaySmall" />
+    </Icons>
+  </ExtendedGuiElement>
+
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMajorM">
+    <Title>%ClassPopulationEmpireAffinityMajorMTitle</Title>
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="ClassPopulationEmpireAffinityMajorMCount">
+    <Title>%ClassPopulationEmpireAffinityMajorMTitle</Title>
+  </ExtendedGuiElement>
+
+
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMajorM">
+    <Title>%ClassPopulationStarSystemAffinityMajorMTitle</Title>
+    <SymbolString>Ю</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+  <ExtendedGuiElement Name="ClassPopulationStarSystemAffinityMajorMCount">
+    <Title>%ClassPopulationStarSystemAffinityMajorMTitle</Title>
+    <SymbolString>Ю</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+  </ExtendedGuiElement>
+ 
+
+  <ExtendedGuiElement Name="ClassPopulationPlanetAffinityMajorMCount">
+    <Title>%PopulationMajorMTitle</Title>
+    <Description>%PopulationMajorMDescription</Description>
+    <SymbolString>Ю</SymbolString>
+    <Color Red="255" Green="255" Blue="255" Alpha="255" />
+    <AltTitle>%PopulationMajorMTitle</AltTitle>
+  </ExtendedGuiElement>
+ 
+    
+  <!--MajorM-->
+  <ExtendedGuiElement Name="AffinityMajorM">
+    <Title>%AffinityMajorMTitle</Title>
+    <Description>%AffinityMajorMDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="AffinityMajorMSmall.png" />
+      <Icon Size="Medium" Path="AffinityMajorMMedium.png" />
+      <Icon Size="MediumInverted" Path="AffinityMajorMMediumInverted" />
+      <Icon Size="Large" Path="AffinityMajorMLarge.png" />
+      <Icon Size="Leader" Path="QuestHeroEndless01Large.png" />
+    </Icons>
+    <SymbolString>Ю</SymbolString>
+    <Color Red="233" Green="105" Blue="237" Alpha="255" />
+  </ExtendedGuiElement>
+    
+    
+    
+</Datatable>

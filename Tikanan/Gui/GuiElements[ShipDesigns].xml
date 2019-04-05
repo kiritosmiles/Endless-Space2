@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+   
+	
+	<!-- ******************** -->
+	<!-- **   Cravers      ** -->
+	<!-- ******************** -->
+
+	<GuiElement Name="MajorM_Colonizer">
+		<Title>%ShipDesignSmall03ColonizerCraversTitle</Title>
+		<Description>%ShipDesignSmall03ColonizerCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="ShipDesignDecolonizationMajorM">
+		<Title>%ShipDesignSmall03ColonizerCraversTitle</Title>
+		<Description>%ShipDesignSmall03ColonizerCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MajorM_Explorer">
+		<Title>%ShipDesignSmall03ExplorerCraversTitle</Title>
+		<Description>%ShipDesignSmall03ExplorerCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MajorM_SmallAttack">
+		<Title>%ShipDesignSmall01AttackerCraversTitle</Title>
+		<Description>%ShipDesignSmall01AttackerCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MajorM_SmallSupport">
+		<Title>>%ShipDesignSmall02SupporterCraversTitle</Title>
+		<Description>%ShipDesignSmall02SupporterCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall02CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall02CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+    <GuiElement Name="MajorM_Leecher">
+        <Title>%ShipDesignSmall05LeecherCraversTitle</Title>
+        <Description>%ShipDesignSmall05LeecherCraversDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03CraversLarge" />
+        </Icons>
+    </GuiElement>
+    <GuiElement Name="MajorM_RootCreator">
+        <Title>%ShipDesignSmall06RootCreatorCraversTitle</Title>
+        <Description>%ShipDesignSmall06RootCreatorCraversDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Sophons/ShipHullSmall03CraversLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="MajorM_ExplorerShipBound">
+        <Title>%ShipDesignSmall03ExplorerCraversTitle</Title>
+        <Description>%ShipDesignSmall03ExplorerCraversDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
+        </Icons>
+    </GuiElement>
+
+	<GuiElement Name="MajorM_MediumAttack">
+		<Title>%ShipDesignMedium01AttackerCraversTitle</Title>
+		<Description>%ShipDesignMedium01AttackerCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium01CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium01CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MajorM_Invader">
+		<Title>%ShipDesignMedium02InvaderCraversTitle</Title>
+		<Description>%ShipDesignMedium02InvaderCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MajorM_MediumDefense">
+		<Title>%ShipDesignMedium02DefenderCraversTitle</Title>
+		<Description>%ShipDesignMedium02DefenderCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="MajorM_LargeCarrier">
+		<Title>%ShipDesignLarge01CarrierCraversTitle</Title>
+		<Description>%ShipDesignLarge01CarrierCraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullLarge01CraversSmall" />
+			<Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullLarge01CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+    <GuiElement Name="MajorM_Mothership">
+        <Title>%ShipDesignLarge00MothershipCraversTitle</Title>
+        <Description>%ShipDesignLarge00MothershipCraversDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullVampirilisMothershipSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullVampirilisMothershipLarge" />
+        </Icons>
+    </GuiElement>
+
+   
+</Datatable>

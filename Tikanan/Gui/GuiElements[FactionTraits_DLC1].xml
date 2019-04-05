@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+    
+  <!-- Vaulters -->
+  <ExtendedGuiElement Name="AffinityGameplayMajorM">
+    <Title>%AffinityGameplayMajorMTitle</Title>
+    <Description>%AffinityGameplayMajorMDescription</Description>
+    <Icons>
+      <Icon Size="Small" Path="Bitmaps/Atlased/Affinities/AffinityVaultersSmall" />
+    </Icons>
+    <TooltipElement>
+      <EffectOverride>%AffinityGameplayMajorMTooltipEffect</EffectOverride>
+    </TooltipElement>
+  </ExtendedGuiElement>
+
+  
+</Datatable>

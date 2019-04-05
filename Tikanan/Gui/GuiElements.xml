@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <ExtendedGuiElement Name="UniquePlanetMajorM">
+        <Title>DiabloUniquePlanet</Title>
+        <Description>Dreadlord-DiabloUniquePlanet</Description>
+        <Icons>
+            <Icon Size="Small" Path="PlanetType" />
+            <Icon Size="Medium" Path="Bitmaps/Dynamic/Notifications/UniquePlanetTerransMedium" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/Planets/PlanetTypeUniqueHuskLarge" />
+            <Icon Size="Mood" Path="Bitmaps/Dynamic/Notifications/NotificationUniquePlanetHuskLarge" />
+            <Icon Size="Planetoid" Path="Bitmaps/Dynamic/Planets/PlanetTypeHomeWorldCraversPlanetoid"/>
+        </Icons>
+
+    </ExtendedGuiElement>
+</Datatable>

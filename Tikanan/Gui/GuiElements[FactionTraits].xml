@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+    <GuiElement Name="FactionTraitMinorMinorN">
+        <Title>%FactionTraitMinorMinorNTitle</Title>
+        <Description>%FactionTraitMinorMinorNDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    
+    <GuiElement Name="FactionTraitMinorNIndustry">
+        <Title>%FactionTraitMinorNIndustryTitle</Title>
+        <Description>%FactionTraitMinorNIndustryDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="FactionTraitMinorNInfluence1">
+        <Title>%FactionTraitMinorNInfluence1Title</Title>
+        <Description>%FactionTraitMinorNInfluence1Description</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/Headers/HeaderTraits" />
+        </Icons>
+    </GuiElement>
+    
+</Datatable>

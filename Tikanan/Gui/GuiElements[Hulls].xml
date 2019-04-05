@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Gui.GuiElement.xsd">
+
+
+	<GuiElement Name="HullSmall01MajorM">
+		<Title>%HullSmall01CraversTitle</Title>
+		<Description>%HullSmall01CraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="HullSmall02MajorM">
+		<Title>%%HullSmall02CraversTitle</Title>
+		<Description>%HullSmall02CraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall02CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall02CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="HullSmall03MajorM">
+		<Title>%HullSmall03CraversTitle</Title>
+		<Description>%HullSmall03CraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="HullSmall04MajorM">
+		<Title>%HullSmall04CraversTitle</Title>
+		<Description>%HullSmall04CraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+    <GuiElement Name="HullSmall04MajorMShipBound">
+        <Title>%HullSmall04CraversTitle</Title>
+        <Description>%HullSmall04CraversDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall01CraversLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="HullSmall05MajorM">
+        <Title>%HullSmall05CraversTitle</Title>
+        <Description>%HullSmall05CraversDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
+        </Icons>
+    </GuiElement>
+
+    <GuiElement Name="HullSmall06MajorM">
+        <Title>%HullSmall06CraversTitle</Title>
+        <Description>%HullSmall06CraversDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullSmall03CraversLarge" />
+        </Icons>
+    </GuiElement>
+
+	<GuiElement Name="HullMedium01MajorM">
+		<Title>%HullMedium01CraversTitle</Title>
+		<Description>%HullMedium01CraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium01CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+	<GuiElement Name="HullMedium02MajorM">
+		<Title>%HullMedium02CraversTitle</Title>
+		<Description>%HullMedium02CraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullMedium02CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+    <GuiElement Name="HullMedium03MajorM">
+        <Title>%HullMedium03VaultersTitle</Title>
+        <Description>%HullMedium03VaultersDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Vaulters/ShipHullMedium03VaultersSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vaulters/ShipHullMedium03VaultersLarge" />
+        </Icons>
+    </GuiElement>
+
+	<GuiElement Name="HullLarge01MajorM">
+		<Title>%%HullLarge01CraversTitle</Title>
+		<Description>%HullLarge01CraversDescription</Description>
+		<Icons>
+			<Icon Size="Small" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullLarge01CraversSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Cravers/ShipHullLarge01CraversLarge" />
+		</Icons>
+	</GuiElement>
+
+    <GuiElement Name="HullLarge00MajorM">
+        <Title>%HullVampirilisMothershipTitle</Title>
+        <Description>%HullVampirilisMothershipDescription</Description>
+        <Icons>
+            <Icon Size="Small" Path="Bitmaps/Atlased/ShipHulls/Vampirilis/ShipHullVampirilisMothershipSmall" />
+            <Icon Size="Large" Path="Bitmaps/Dynamic/ShipHulls/Vampirilis/ShipHullVampirilisMothershipLarge" />
+        </Icons>
+    </GuiElement>
+
+</Datatable>
