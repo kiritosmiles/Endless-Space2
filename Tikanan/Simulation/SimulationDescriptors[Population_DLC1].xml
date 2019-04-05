@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+  
+ 
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityMajorM" Type="ClassPopulationEmpire"/>
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMajorM" Type="ClassPopulationStarSystem" />
+
+
+
+    <!-- _Counts-->
+    <SimulationDescriptor Name="ClassPopulationPlanetAffinityMajorMCount" Type="ClassPopulationPlanet">
+        <Modifier       TargetProperty="PopulationCount"     Operation="Addition" Value="$(PopulationCount)" Path="../ClassStarSystem/ClassPopulation,ClassPopulationStarSystemAffinityMajorMCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationStarSystemAffinityMajorMCount" Type="ClassPopulationStarSystem">
+        <Modifier TargetProperty="PopulationCount" Operation="Addition" Value="$(PopulationCount)" Path="./!ClassExploitedStarSystem,!ColonizedStarSystemStateLost/../ClassEmpire/ClassPopulation,ClassPopulationEmpireAffinityMajorMCount" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="ClassPopulationEmpireAffinityMajorMCount" Type="ClassPopulationEmpire">
+        <Modifier TargetProperty="NetPopulationScore" Operation="Multiplication" Value="$(PopulationGrowthScoreModifier)" Path="../ClassEmpire/ClassColonizedStarSystem/ClassPopulationStarSystemAffinityMajorMCount" Priority="100" TooltipHidden="true"/>
+    </SimulationDescriptor>
+  
+    
+</Datatable>

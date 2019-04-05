@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationCollectionBonusTrait.xsd">
+    
+       
+ <PopulationCollectionBonusTrait Name="PopulationCollectionBonusTraitMajorM" Cost="0" ShowInCustom="false"> <!--Thresholds set to 1, 2 and 3 for testing-->
+        <CollectionBonus Threshold="10">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusMinorN1"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel1"/>
+        </CollectionBonus>
+
+        <CollectionBonus Threshold="20">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusMinorN2"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel2"/>
+        </CollectionBonus>
+
+        <CollectionBonus Threshold="30">
+            <SimulationDescriptorReference Name="PopulationCollectionBonusMinorN3"/>
+            <SimulationDescriptorReference Name="PopulationCollectionBonusLevel3"/>
+        </CollectionBonus>
+    </PopulationCollectionBonusTrait> 
+    
+</Datatable>

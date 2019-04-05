@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+
+    
+    <SimulationDescriptor Name="TechnologyLinkEmpireDevelopmentUnique1ToUnique2MajorM"    Type="TechnologyLink"/>
+    <SimulationDescriptor Name="TechnologyLinkEmpireDevelopmentUnique1ToUnique3MajorM"    Type="TechnologyLink"/>
+
+
+    <SimulationDescriptor Name="TechnologyLinkExclusionUnique2Unique3MajorM"              Type="TechnologyLink"/>
+    <SimulationDescriptor Name="TechnologyLinkEmpireDevelopmentUnique4ToUnique6MajorM"    Type="TechnologyLink"/>
+    <SimulationDescriptor Name="TechnologyLinkEmpireDevelopmentUnique5ToUnique7MajorM"    Type="TechnologyLink"/>
+
+    <SimulationDescriptor Name="TechnologyLinkEmpireDevelopmentUnique8ToUnique9MajorM"    Type="TechnologyLink"/>
+    <SimulationDescriptor Name="TechnologyLinkExclusionUnique6Unique7MajorM"              Type="TechnologyLink"/>
+
+	<SimulationDescriptor Name="TechnologyHull6MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyHull2MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyHull3MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyHull4MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyHull5MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyHull6MajorM"            Type="Technology" IsSerializable="false"/>
+	
+
+	<SimulationDescriptor Name="TechnologyImproveHull1MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyImproveHull2MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyImproveHull3MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyImproveHull4MajorM"            Type="Technology" IsSerializable="false"/>
+	<SimulationDescriptor Name="TechnologyImproveHull5MajorM"            Type="Technology" IsSerializable="false"/>
+
+</Datatable>

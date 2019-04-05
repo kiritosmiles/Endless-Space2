@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/EmpireImprovementDefinition.xsd">
+    
+    <!-- ###### MajorM ###### -->
+    <!-- Hull4 (medium attacker) unlocks additional slots for small attacker ships -->
+    <EmpireImprovementDefinition Name="EmpireImprovementSlotsSmall01MajorM" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary" >
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyImproveHull1MajorM</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementSlotsSmall01MajorM" />
+        <!-- Points to the actual tooltip description that will be displayed -->
+    </EmpireImprovementDefinition>
+
+    <!-- Hull5 (medium defender) unlocks additional slots for small support ships -->
+    <EmpireImprovementDefinition Name="EmpireImprovementSlotsSmall02MajorM" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary"  >
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyImproveHull2MajorM</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementSlotsSmall02MajorM" />
+    </EmpireImprovementDefinition>
+
+    <!-- Hull6 (large ship) unlocks additional slots for all medium ships -->
+    <EmpireImprovementDefinition Name="EmpireImprovementSlotsMedium01MajorM" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary" >
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyImproveHull3MajorM</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementSlotsMedium01MajorM" />
+    </EmpireImprovementDefinition>
+    <EmpireImprovementDefinition Name="EmpireImprovementSlotsMedium02MajorM" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary" >
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyImproveHull4MajorM</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementSlotsMedium02MajorM" />
+    </EmpireImprovementDefinition>
+
+    <!-- Hull6Slots unlocks additional slots for large ships-->
+    <EmpireImprovementDefinition Name="EmpireImprovementSlotsLarge01MajorM" Category="CategoryHullUpgrade" SubCategory="SubCategoryHullMilitary">
+        <TechnologyPrerequisite Flags="Prerequisite,Discard,Technology">TechnologyImproveHull5MajorM</TechnologyPrerequisite>
+        <SimulationDescriptorReference Name="EmpireImprovementSlotsLarge01MajorM" />
+    </EmpireImprovementDefinition>
+
+
+    
+  
+</Datatable>

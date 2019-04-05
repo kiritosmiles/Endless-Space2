@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/Amplitude.Unity.Simulation.SimulationDescriptor.xsd">
+    <SimulationDescriptor Name="EmpireImprovementSlotsSmall01MajorM" Type="EmpireImprovement">
+        <Modifier TargetProperty="ShipStage" Value="1"  Operation="Addition" Path="ClassEmpire//ClassShip,ShipHull01,ShipSizeSmall" TooltipHidden="true"/>
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementSlotsSmall02MajorM" Type="EmpireImprovement"      >
+        <Modifier TargetProperty="ShipStage" Value="1"  Operation="Addition" Path="ClassEmpire//ClassGarrison/ClassShip,ShipHull02,ShipSizeSmall" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EmpireImprovementSlotsMedium01MajorM"    Type="EmpireImprovement">
+        <Modifier TargetProperty="ShipStage" Value="1"  Operation="Addition" Path="ClassEmpire//ClassGarrison/ClassShip,ShipSizeMedium,ShipHull01" TooltipHidden="true" />
+    </SimulationDescriptor>
+    <SimulationDescriptor Name="EmpireImprovementSlotsMedium02MajorM"    Type="EmpireImprovement">
+        <Modifier TargetProperty="ShipStage" Value="1"  Operation="Addition" Path="ClassEmpire//ClassGarrison/ClassShip,ShipSizeMedium,ShipHull02" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+    <SimulationDescriptor Name="EmpireImprovementSlotsLarge01MajorM" Type="EmpireImprovement">
+        <Modifier TargetProperty="ShipStage" Value="1"  Operation="Addition" Path="ClassEmpire//ClassGarrison/ClassShip,ShipSizeLarge" TooltipHidden="true"/>
+    </SimulationDescriptor>
+
+
+
+  
+</Datatable>

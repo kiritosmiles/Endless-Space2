@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd">
+
+
+    <PopulationModifiersTrait Name="PopulationModifiersTraitMajorM" SubCategory="Affinity" ShowInCustom="false">
+        <Modifiers>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMajorM"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationStarSystem">
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood"/>
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMajorM"/>
+            </Modifier>
+        </Modifiers>
+
+        <AssimilatedModifiers>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityMajorM"/>
+            </Modifier>
+        </AssimilatedModifiers>
+    </PopulationModifiersTrait>
+
+    <PopulationModifiersTrait Name="PopulationModifiersTraitMajorMCount" SubCategory="Count">
+        <Modifiers>
+            <Modifier Class="ClassPopulationPlanet">
+                <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityMajorMCount"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationStarSystem">
+                <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMajorMCount"/>
+            </Modifier>
+            <Modifier Class="ClassPopulationEmpire">
+                <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMajorMCount"/>
+            </Modifier>
+        </Modifiers>
+    </PopulationModifiersTrait>
+    
+   
+
+</Datatable>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/MinorFaction.xsd">
+
+    <MajorFaction Name="FactionMajorM" Standard="true" Author="Kirito" Priority="80">
+        <Affinity Name="AffinityGameplayMajorM"/>
+
+        <Trait Name="IsMajorFaction"/>
+
+            <!--Traits here-->
+            <Trait Name="FactionTraitBigFleets2"/>
+            <Trait Name="FactionTraitCrowdedPlanets2"/>
+            <Trait Name="FactionTraitEternalWar"/>
+            <Trait Name="FactionTraitFearlessWarriors1"/>
+            <Trait Name="FactionTraitTechnologyDefinitionMilitary1" />
+            <Trait Name="FactionTraitMinorHaroshems" />
+            <Trait Name="FactionTraitFastTraveler2"/>
+            <Trait Name="FactionTraitLegendaryHeroes2"/>
+
+        <TraitStartingSenate Priority="1">
+            <Government Name="GovernmentDictatorshipCravers"/>
+            <PoliticsWeight Politics="Politics01" Weight="0"/>
+            <PoliticsWeight Politics="Politics02" Weight="0"/>
+            <PoliticsWeight Politics="Politics03" Weight="0"/>
+            <PoliticsWeight Politics="Politics04" Weight="1"/>
+            <PoliticsWeight Politics="Politics05" Weight="2"/>
+            <PoliticsWeight Politics="Politics06" Weight="3"/>
+        </TraitStartingSenate>
+
+        <Bailiff Name="DefaultMoneyBailiff"/>
+        <Bailiff Name="DefaultEmpirePointBailiff"/>
+        <Bailiff Name="DefaultProcessingPowerBailiff"/>
+
+        <MajorPopulation Affinity="AffinityMajorM"     Count="2"/>
+        <MajorPopulation Affinity="AffinityCravers"    Count="1"/>
+    </MajorFaction>
+</Datatable>    
